@@ -1,0 +1,37 @@
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+.money-action{
+    margin-bottom: 40px;
+    .money__input{
+        padding: 8px 15px;
+        margin: 0px 5px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        border: 1px solid var(--incomeColor);
+        border-radius: 4px;
+        box-shadow: 0px 0px 2px 0px var(--incomeColor), 1px 2px 4px 0px var(--incomeShadowColor2);
+        background-color: var(--incomeColor);
+        &:focus{
+            outline: none;
+            box-shadow: 0px 0px 2px 1px var(--incomeColor), 1px 2px 4px 1px var(--incomeShadowColor2);
+        }
+        &::placeholder{
+            color: #fff;
+        }
+    }
+    .money--expense{
+        background-color: var(--expenseColor);
+        border: 1px solid var(--expenseColor);
+        box-shadow: 0px 0px 2px 0px var(--expenseShadowColor1), 1px 2px 4px 0px var(--expenseShadowColor2);
+        &:focus{
+            box-shadow: 0px 0px 2px 1px var(--expenseShadowColor1), 1px 2px 4px 1px var(--expenseShadowColor2);
+        }
+    }
+    .money-submit{
+        cursor: pointer;
+    }
+}

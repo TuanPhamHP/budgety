@@ -1,0 +1,9 @@
+.summary{
+    min-height: 30vh;
+    background-image: url('/src/assets/image/savingmoney.jpg');
+    &__date{
+        font-size: 18px;
+        font-weight: 600;
+        color: #444;
+    }
+}

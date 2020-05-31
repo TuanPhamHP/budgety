@@ -1,0 +1,25 @@
+@import './base/reset.scss';
+@import './components/summary.scss';
+@import './components/money-list.scss';
+@import './components/money-action.scss';
+.App{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: unset;
+    transition: 0.4s ease-in-out;
+    &:focus,&:hover{
+        outline: none;
+    }
+}
+:root{
+    --incomeColor : #01c5aa;
+    --incomeShadowColor1: #01c5aaeb;
+    --incomeShadowColor2: #0c8a7894;
+    --expenseColor : #da2130;
+    --expenseShadowColor1: #da2130d2;
+    --expenseShadowColor2: #a31c27e3;
+}
