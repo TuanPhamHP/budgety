@@ -5,6 +5,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .money-action{
     margin-bottom: 40px;
+    #money-status{
+        cursor: pointer;
+    }
     .money__input{
         padding: 8px 15px;
         margin: 0px 5px;
