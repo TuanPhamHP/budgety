@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "939a56404b4d8d102678da9c7592d044",
+    "revision": "99bb4d74edc48707bd0d35a1a7511b49",
     "url": "/budgety/index.html"
   },
   {
-    "revision": "9abffeb1786c43bf2e18",
+    "revision": "077f5bd3576e9e7cbcda",
     "url": "/budgety/static/css/2.823a100d.chunk.css"
   },
   {
-    "revision": "2d308820deda1d93f2d7",
+    "revision": "1bb756fef47f64fca5fb",
     "url": "/budgety/static/css/main.305d3904.chunk.css"
   },
   {
-    "revision": "9abffeb1786c43bf2e18",
-    "url": "/budgety/static/js/2.a1812500.chunk.js"
+    "revision": "077f5bd3576e9e7cbcda",
+    "url": "/budgety/static/js/2.1d2e6b71.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/budgety/static/js/2.a1812500.chunk.js.LICENSE.txt"
+    "url": "/budgety/static/js/2.1d2e6b71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d308820deda1d93f2d7",
-    "url": "/budgety/static/js/main.0b894065.chunk.js"
+    "revision": "1bb756fef47f64fca5fb",
+    "url": "/budgety/static/js/main.0ba34154.chunk.js"
   },
   {
     "revision": "bae6fbe65f3c76b634e8",
