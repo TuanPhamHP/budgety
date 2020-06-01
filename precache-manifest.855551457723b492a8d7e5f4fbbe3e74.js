@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45d8ea9eb954dc2e9549812b3713566a",
+    "revision": "d103573581e23fb099d81e99c57901ed",
     "url": "/budgety/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/budgety/static/css/2.823a100d.chunk.css"
   },
   {
-    "revision": "6c0dc99dcebf05d3467c",
-    "url": "/budgety/static/css/main.ddee1c98.chunk.css"
+    "revision": "5ec26503693f454c9de7",
+    "url": "/budgety/static/css/main.b9320f5d.chunk.css"
   },
   {
     "revision": "d877aba89cc835c6c8fa",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/budgety/static/js/2.8becf6aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c0dc99dcebf05d3467c",
+    "revision": "5ec26503693f454c9de7",
     "url": "/budgety/static/js/main.b33ed719.chunk.js"
   },
   {
