@@ -38,3 +38,50 @@ input[type=number]::-webkit-outer-spin-button {
         cursor: pointer;
     }
 }
+@media only screen and (max-width : 768px){
+    .money-action form{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        .money__description,.money__amount{
+            width: calc(42% - 30px);
+            margin: 0px;
+        }
+        #money-status{
+            margin: 0px;
+        }
+        .money-submit{
+            width: 100%;
+            margin: 10px 0px;
+        }
+    }
+}
+@media only screen and (max-width : 550px){
+    .money-action form{
+        .money__description,.money__amount{
+            width: calc(48% - 30px);
+            margin: 0px;
+        }
+        #money-status{
+            order: 2;
+            margin: 10px 6px 10px 0px;
+        }
+        .money-submit{
+            order: 2;
+            width: calc(100% - 105px);
+            margin: 10px 0px;
+        }
+    }
+}
+@media only screen and (max-width : 420px){
+    .money-action form{
+        .money__description,.money__amount{
+            width: calc(100%);
+            margin: 4px 0px;
+        }
+        #money-status,.money-submit{
+            margin: 6px 0px;
+        }
+    }
+}

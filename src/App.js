@@ -38,7 +38,7 @@ function App() {
   }
   
   return (
-    <div className="App">
+    <div className="App container">
       <Summarize list={list}/>
       <MoneyAction handleAddItem={handleAddItem}/>
       <MoneyList list={list} handleDelete={handleDelete}/>

@@ -2,7 +2,7 @@
 @import './components/summary.scss';
 @import './components/money-list.scss';
 @import './components/money-action.scss';
-.App{
+.container{
     max-width: 1200px;
     margin: 0px auto;
 }
@@ -15,6 +15,10 @@
         outline: none;
     }
 }
+body{
+    background-color: #f2eeeecf;
+    // background-image: linear-gradient(45deg,#01c5ab9a,#58cfbf9a,#cc5b64b6,#da2130b6);
+}
 :root{
     --incomeColor : #01c5aa;
     --incomeShadowColor1: #01c5aaeb;
@@ -22,4 +26,9 @@
     --expenseColor : #da2130;
     --expenseShadowColor1: #da2130d2;
     --expenseShadowColor2: #a31c27e3;
+}
+@media only screen and (max-width : 1200px){
+    .container{
+        max-width: 90%;
+    }
 }

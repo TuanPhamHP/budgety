@@ -16,18 +16,18 @@ function MoneyList({ list, handleDelete }) {
                     incomeList.map(item => (
                         <div key={item.id} className="income__item list-item">
                             <p key={item.id}>{item.description}:    {item.value}</p>
-                            <button onClick={() => handleDelete(item.id)}><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+                            <button onClick={() => handleDelete(item.id)}><i className="fa fa-times-circle" aria-hidden="true"></i></button>
                         </div>
                     ))
                 }
             </div>
 
-            <div className="monney__list__col monney__list--expenses"><h4 className="monney__list__heading">EXPENSES</h4>
+            <div className="monney__list__col monney__list--expenses"><h4 className="monney__list__heading">EXPENSE</h4>
             {
                     expensesList.map(item => (
                         <div key={item.id} className="expenses__items list-item">
                             <p key={item.id}>{item.description}:    {item.value}</p>
-                            <button onClick={() => handleDelete(item.id)}><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+                            <button onClick={() => handleDelete(item.id)}><i className="fa fa-times-circle" aria-hidden="true"></i></button>
                         </div>
                     ))
                 }

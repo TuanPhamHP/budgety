@@ -7,13 +7,13 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
 function Summarize({ list }) {
     let sum = list.reduce((sum, item) => item.status === true || item.status === "true" ? sum + item.value : sum - item.value, 0);
     let incomeTotal = list.reduce((incomeTotal,item) => item.status ? incomeTotal + item.value : incomeTotal,0);
-    let expensesTotal = list.reduce((expensesTotal,item) => !item.status ? expensesTotal - item.value : expensesTotal,0);
+    let expensesTotal = list.reduce((expensesTotal,item) => item.status==='false' ? expensesTotal - item.value : expensesTotal,0);
     return (
         <div className="summary">
-            <p className="summary__date">Available Budget in {`${monthNames[date.getMonth()]} ${date.getDate()}`}</p>
-            <h1 className="summary__money">{sum}</h1>
+            <p className="summary__date">Available Budget in : {`${monthNames[date.getMonth()]} ${date.getDate()}`}</p>
+            <h1 className="summary__money" className={sum >= 0 ? "summary__sum income-lger" : "summary__sum expense-lger"}>{sum}</h1>
             {/* <p className="summary__income">{incomeTotal}</p> */}
-            <p className="summary__expenses">{expensesTotal} : {expensesTotal/incomeTotal ? `${Math.trunc(expensesTotal*100/incomeTotal)}%` : '---'}</p>
+            {/* <p className="summary__expenses">{expensesTotal} : {expensesTotal/incomeTotal ? `${Math.trunc(expensesTotal*100/incomeTotal)}%` : '---'}{incomeTotal}{expensesTotal}</p> */}
         </div>
     )
 }

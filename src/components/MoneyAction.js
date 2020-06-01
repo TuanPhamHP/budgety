@@ -52,6 +52,7 @@ function MoneyAction({handleAddItem}) {
                     <option value={statuses.EXPENSE}  className="money__input">-</option>
                 </select>
                 <input 
+                    required
                     type="text" 
                     className={item.status==='true'||item.status=== true ? "money__input money__description" : "money__input money__description money--expense" } 
                     onChange={event => handleUpdateItem(event, 'description')} 
