@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99bb4d74edc48707bd0d35a1a7511b49",
+    "revision": "8281357601c68d331df1c4c10fcd2d52",
     "url": "/budgety/index.html"
   },
   {
-    "revision": "077f5bd3576e9e7cbcda",
+    "revision": "0802dede43fed7ddb4f6",
     "url": "/budgety/static/css/2.823a100d.chunk.css"
   },
   {
-    "revision": "1bb756fef47f64fca5fb",
-    "url": "/budgety/static/css/main.305d3904.chunk.css"
+    "revision": "e2dbbe2efa54f0146215",
+    "url": "/budgety/static/css/main.9cbb1e39.chunk.css"
   },
   {
-    "revision": "077f5bd3576e9e7cbcda",
-    "url": "/budgety/static/js/2.1d2e6b71.chunk.js"
+    "revision": "0802dede43fed7ddb4f6",
+    "url": "/budgety/static/js/2.fae3e7d5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/budgety/static/js/2.1d2e6b71.chunk.js.LICENSE.txt"
+    "url": "/budgety/static/js/2.fae3e7d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bb756fef47f64fca5fb",
-    "url": "/budgety/static/js/main.0ba34154.chunk.js"
+    "revision": "e2dbbe2efa54f0146215",
+    "url": "/budgety/static/js/main.90f6bab8.chunk.js"
   },
   {
     "revision": "bae6fbe65f3c76b634e8",
     "url": "/budgety/static/js/runtime-main.f7e5c595.js"
+  },
+  {
+    "revision": "62fd37ef3203a999f7b9cfdaa4911e86",
+    "url": "/budgety/static/media/bg1.62fd37ef.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -46,9 +50,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/budgety/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "2485eb81aba9b6e13bb45f145ec3016e",
-    "url": "/budgety/static/media/savingmoney.2485eb81.jpg"
   }
 ]);
