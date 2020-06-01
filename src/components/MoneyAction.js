@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { statuses } from "../constants/constants";
-import sumBg from "../assets/image/savingmoney.jpg";
 // const newItem = {
 //     description : "",
 //     value:"",
