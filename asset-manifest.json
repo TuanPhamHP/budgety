@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/budgety/static/css/main.efd089bc.chunk.css",
-    "main.js": "/budgety/static/js/main.b33ed719.chunk.js",
-    "main.js.map": "/budgety/static/js/main.b33ed719.chunk.js.map",
+    "main.css": "/budgety/static/css/main.305d3904.chunk.css",
+    "main.js": "/budgety/static/js/main.0b894065.chunk.js",
+    "main.js.map": "/budgety/static/js/main.0b894065.chunk.js.map",
     "runtime-main.js": "/budgety/static/js/runtime-main.f7e5c595.js",
     "runtime-main.js.map": "/budgety/static/js/runtime-main.f7e5c595.js.map",
     "static/css/2.823a100d.chunk.css": "/budgety/static/css/2.823a100d.chunk.css",
-    "static/js/2.8becf6aa.chunk.js": "/budgety/static/js/2.8becf6aa.chunk.js",
-    "static/js/2.8becf6aa.chunk.js.map": "/budgety/static/js/2.8becf6aa.chunk.js.map",
+    "static/js/2.a1812500.chunk.js": "/budgety/static/js/2.a1812500.chunk.js",
+    "static/js/2.a1812500.chunk.js.map": "/budgety/static/js/2.a1812500.chunk.js.map",
     "index.html": "/budgety/index.html",
-    "precache-manifest.29a6320b3659629ec1098f5ca65f1e7e.js": "/budgety/precache-manifest.29a6320b3659629ec1098f5ca65f1e7e.js",
+    "precache-manifest.2d91acced746220dd162681f46b6a39e.js": "/budgety/precache-manifest.2d91acced746220dd162681f46b6a39e.js",
     "service-worker.js": "/budgety/service-worker.js",
     "static/css/2.823a100d.chunk.css.map": "/budgety/static/css/2.823a100d.chunk.css.map",
-    "static/css/main.efd089bc.chunk.css.map": "/budgety/static/css/main.efd089bc.chunk.css.map",
-    "static/js/2.8becf6aa.chunk.js.LICENSE.txt": "/budgety/static/js/2.8becf6aa.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/budgety/static/media/fontawesome-webfont.fee66e71.woff"
+    "static/css/main.305d3904.chunk.css.map": "/budgety/static/css/main.305d3904.chunk.css.map",
+    "static/js/2.a1812500.chunk.js.LICENSE.txt": "/budgety/static/js/2.a1812500.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/budgety/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/savingmoney.jpg": "/budgety/static/media/savingmoney.2485eb81.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f7e5c595.js",
     "static/css/2.823a100d.chunk.css",
-    "static/js/2.8becf6aa.chunk.js",
-    "static/css/main.efd089bc.chunk.css",
-    "static/js/main.b33ed719.chunk.js"
+    "static/js/2.a1812500.chunk.js",
+    "static/css/main.305d3904.chunk.css",
+    "static/js/main.0b894065.chunk.js"
   ]
 }
