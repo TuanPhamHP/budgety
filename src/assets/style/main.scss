@@ -1,34 +1,44 @@
-@import './base/reset.scss';
-@import './components/summary.scss';
-@import './components/money-list.scss';
-@import './components/money-action.scss';
-.container{
-    max-width: 1200px;
-    margin: 0px auto;
+@import "./base/reset.scss";
+@import "./components/summary.scss";
+@import "./components/money-list.scss";
+@import "./components/money-action.scss";
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px 15px;
+  border-radius: 6px;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: unset;
-    transition: 0.4s ease-in-out;
-    &:focus,&:hover{
-        outline: none;
-    }
+.App {
 }
-body{
-    background-color: #f2eeeecf;
-    // background-image: linear-gradient(45deg,#01c5ab9a,#58cfbf9a,#cc5b64b6,#da2130b6);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: unset;
+  transition: 0.4s ease-in-out;
+  &:focus,
+  &:hover {
+    outline: none;
+  }
 }
-:root{
-    --incomeColor : #01c5aa;
-    --incomeShadowColor1: #01c5aaeb;
-    --incomeShadowColor2: #0c8a7894;
-    --expenseColor : #da2130;
-    --expenseShadowColor1: #da2130d2;
-    --expenseShadowColor2: #a31c27e3;
+body {
+  min-height: 100vh;
+  background: url("../../assets/image/bg1.png") left center/cover no-repeat;
 }
-@media only screen and (max-width : 1200px){
-    .container{
-        max-width: 90%;
-    }
+:root {
+  --incomeColor: #01c5aa;
+  --incomeShadowColor1: #01c5aaeb;
+  --incomeShadowColor2: #0c8a7894;
+  --expenseColor: #da2130;
+  --expenseShadowColor1: #da2130d2;
+  --expenseShadowColor2: #a31c27e3;
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .App {
+    // background-position: center;
+  }
 }

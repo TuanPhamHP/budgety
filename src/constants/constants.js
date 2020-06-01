@@ -1,4 +1,4 @@
 export const statuses = {
-    INCOME: true,
-    EXPENSE: false
+    INCOME: "true",
+    EXPENSE: "false"
 }
