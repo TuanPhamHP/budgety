@@ -36,6 +36,7 @@ function Summarize({ list }) {
   return (
     <div className="summary">
       <p className="summary__date">
+      Budgety <br/>
         Available Budget in :{" "}
         {`${monthNames[date.getMonth()]} ${date.getDate()}`}
       </p>
